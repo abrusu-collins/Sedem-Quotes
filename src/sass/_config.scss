@@ -3,6 +3,11 @@
 $white:#fcfeff;
 $grey:#5b6466;
 $hero-gradient: radial-gradient(circle farthest-corner at 50% 50%,#30b4a5,#249dc4);
+$thought-gradient1:-webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,.9)),to(hsla(0,0%,100%,.9))),-webkit-gradient(linear,left top,right top,from(#249dc4),to(#30b4a5));
+;
+$thought-gradient2:linear-gradient(180deg,hsla(0,0%,100%,.9),hsla(0,0%,100%,.9)),linear-gradient(90deg,#249dc4,#30b4a5);
+;
+
 
 
 * {
