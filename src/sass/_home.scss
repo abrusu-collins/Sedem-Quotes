@@ -11,6 +11,10 @@
         }
         & .arrow{
             margin-top: 20px;
+            animation-name: bounce;
+            animation-timing-function: ease;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
         }
     }
     & .main{
