@@ -1,6 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   let thoughtArray = [
@@ -27,7 +26,9 @@ function Home() {
       <div className="hero">
         <p className="hero-title">Welcome to my thought board💭</p>
         <p className="hero-text">I convert my random thoughts into quotes🗣️</p>
-        <FontAwesomeIcon icon={faArrowCircleDown} />
+        <div className="arrow">
+          <FontAwesomeIcon icon={faArrowCircleDown} />
+        </div>
       </div>
       <div className="main">{thoughtdivs}</div>
     </div>

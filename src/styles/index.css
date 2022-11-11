@@ -19,6 +19,9 @@
 .home .hero .hero-title {
   font-size: 50px;
 }
+.home .hero .arrow {
+  margin-top: 20px;
+}
 .home .main {
   color: #5b6466;
   display: grid;
@@ -34,4 +37,34 @@
   background-color: #fff;
   background-image: linear-gradient(180deg, hsla(0deg, 0%, 100%, 0.9), hsla(0deg, 0%, 100%, 0.9)), linear-gradient(90deg, #249dc4, #30b4a5);
   padding: 100px 50px;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

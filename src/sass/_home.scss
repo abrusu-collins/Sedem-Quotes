@@ -9,6 +9,9 @@
         & .hero-title{
             font-size: 50px;
         }
+        & .arrow{
+            margin-top: 20px;
+        }
     }
     & .main{
         color: $grey;
@@ -28,3 +31,18 @@
         }
     }
 }
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+  }
+  30% {
+      transform: translateY(-10px);
+  }
+  50% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(0);
+  }
+  }
