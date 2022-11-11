@@ -6,10 +6,29 @@
   font-family: "Poppins", sans-serif;
 }
 
+.home {
+  background-image: url("../img/gray-dots.svg");
+}
 .home .hero {
   background-image: radial-gradient(circle farthest-corner at 50% 50%, #30b4a5, #249dc4);
   color: #fcfeff;
   padding: 60px 0 200px 0;
   font-size: 50px;
   text-align: center;
+}
+.home .main {
+  color: #5b6466;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
+  width: 80%;
+  margin: auto;
+  margin: 50px auto;
+}
+.home .main div {
+  text-align: center;
+  border-radius: 30px;
+  background-color: #fff;
+  background-image: linear-gradient(180deg, hsla(0deg, 0%, 100%, 0.9), hsla(0deg, 0%, 100%, 0.9)), linear-gradient(90deg, #249dc4, #30b4a5);
+  padding: 100px 50px;
 }
