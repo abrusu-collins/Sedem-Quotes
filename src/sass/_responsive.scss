@@ -42,3 +42,11 @@
     }
   }
 }
+
+@media screen and (max-width: 481px) {
+  .home {
+    & .hero {
+      padding: 100px 40px;
+    }
+  }
+}
