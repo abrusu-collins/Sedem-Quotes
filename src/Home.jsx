@@ -4,14 +4,10 @@ import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
 function Home() {
   let thoughtArray = [
     "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
-    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
-    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
-    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
-    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
-    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
-    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
-    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
-    "At this point , the only thing that is pushing me to work hard is hunger",
+    "To be a software engineer. All you need is vim(pun intended) and the ability to control your tears🥲.",
+    "I am a self taught software engineer with a degree in Computer Science. I know it sounds funny.",
+    "When you have a very good idea for a startup, don't delay. Just start the app.",
+    "At this point , the only thing that is pushing me to work hard is hunger.",
   ];
 
   let thoughtdivs = thoughtArray.map((eachThought) => {
