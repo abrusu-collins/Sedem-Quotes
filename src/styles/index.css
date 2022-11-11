@@ -6,9 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
-.home {
+body {
   background-image: url("../img/gray-dots.svg");
 }
+
 .home .hero {
   background-image: radial-gradient(circle farthest-corner at 50% 50%, #30b4a5, #249dc4);
   color: #fcfeff;
@@ -36,7 +37,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5rem;
   width: 80%;
-  margin: auto;
   margin: 50px auto;
 }
 .home .main div {
