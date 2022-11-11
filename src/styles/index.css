@@ -102,3 +102,8 @@ body {
     grid-gap: 3rem;
   }
 }
+@media screen and (max-width: 601px) {
+  .home .main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
