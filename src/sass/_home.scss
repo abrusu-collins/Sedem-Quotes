@@ -3,9 +3,12 @@
     & .hero{
         background-image: $hero-gradient;
         color: $white;
-        padding: 60px 0 200px 0;
-        font-size: 50px;
+        padding: 100px 0;
+        font-size: 20px;
         text-align: center;
+        & .hero-title{
+            font-size: 50px;
+        }
     }
     & .main{
         color: $grey;

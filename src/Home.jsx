@@ -10,10 +10,10 @@ function Home() {
     "At this point , the only thing that is pushing me to work hard is hunger",
     "At this point , the only thing that is pushing me to work hard is hunger",
   ];
-  let i = 1;
+
   let thoughtdivs = thoughtArray.map((eachThought) => {
     return (
-      <div key={i++}>
+      <div>
         <p>{eachThought} </p>
       </div>
     );
@@ -21,7 +21,9 @@ function Home() {
   return (
     <div className="home">
       <div className="hero">
-        <p>Welcome to my thought board💭</p>
+        <p className="hero-title">Welcome to my thought board💭</p>
+        <p className="hero-text">I convert my random thoughts into quotes</p>
+
       </div>
       <div className="main">{thoughtdivs}</div>
     </div>
