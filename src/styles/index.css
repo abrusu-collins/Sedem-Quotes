@@ -37,7 +37,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5rem;
   width: 80%;
-  margin: 50px auto;
+  margin: 5rem auto;
 }
 .home .main div {
   text-align: center;
