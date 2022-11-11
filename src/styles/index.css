@@ -5,3 +5,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+.home .hero {
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #30b4a5, #249dc4);
+  color: #fcfeff;
+  padding: 60px 0 200px 0;
+  font-size: 50px;
+  text-align: center;
+}
