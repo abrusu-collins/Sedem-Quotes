@@ -3,14 +3,14 @@ import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   let thoughtArray = [
-    "At this point , the only thing that is pushing me to work hard is hunger",
-    "At this point , the only thing that is pushing me to work hard is hunger",
-    "At this point , the only thing that is pushing me to work hard is hunger",
-    "At this point , the only thing that is pushing me to work hard is hunger",
-    "At this point , the only thing that is pushing me to work hard is hunger",
-    "At this point , the only thing that is pushing me to work hard is hunger",
-    "At this point , the only thing that is pushing me to work hard is hunger",
-    "At this point , the only thing that is pushing me to work hard is hunger",
+    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
+    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
+    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
+    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
+    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
+    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
+    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
+    "Sometimes all you need is some sleep, don't try and fix the bug before you sleep. You are burnt out.",
     "At this point , the only thing that is pushing me to work hard is hunger",
   ];
 
