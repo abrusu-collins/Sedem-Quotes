@@ -7,8 +7,8 @@ function Home() {
     "To be a software engineer. All you need is vim(pun intended) and the ability to control your tears🥲.",
     "I am a self taught software engineer with a degree in Computer Science. I know it sounds funny.",
     "When you have a very good idea for a startup, don't delay. Just start the app.",
-    "No matter how difficult it looks, just keep doing it, one day you'll get good and it'll surprise you",
-    "You can't jump the steps. Every pro was once a rookie. Enjoy every step of the whole process",
+    "No matter how difficult it looks, just keep doing it, one day you'll get good and it'll surprise you.",
+    "You can't jump the steps. Every pro was once a rookie. Enjoy every step of the whole process.",
     // "At this point , the only thing that is pushing me to work hard is hunger.",
   ];
 
